@@ -1,9 +1,9 @@
 package routes
 
 import (
-	"../handlers"
-	"../middleware"
-	"github.com/gofiber/fiber/v2"
+	"goAddd/internal/handlers"
+	"goAddd/internal/middleware"
+    "github.com/gofiber/fiber/v2"
 )
 
 // SetupRoutes configures the API routes using Fiber

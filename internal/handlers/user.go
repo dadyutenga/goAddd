@@ -1,8 +1,9 @@
 package handlers
 
 import (
-	"../db"
-	"../models"
+	"goAddd/internal/db"
+	"goAddd/internal/models"
+
 	"github.com/gofiber/fiber/v2"
 )
 

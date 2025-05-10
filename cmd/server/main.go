@@ -4,9 +4,9 @@ import (
 	"log"
 
 	"github.com/gofiber/fiber/v2"
-	"../internal/config"
-	"../internal/db"
-	"../internal/routes"
+	"goAddd/internal/config"
+	"goAddd/internal/db"
+	"goAddd/internal/routes"
 )
 
 func main() {

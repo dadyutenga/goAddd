@@ -3,8 +3,9 @@ package db
 import (
 	"log"
 
-	"../config"
-	"../models"
+	"goAddd/internal/config"
+	"goAddd/internal/models"
+
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
 )
