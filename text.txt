@@ -1,0 +1,15 @@
+goAddd/
+├── cmd/                # Entry point for the application
+│   └── server/         # Main server application
+│       └── main.go     # Main entry point
+├── internal/           # Internal packages not meant for use outside the app
+│   ├── config/         # Configuration and environment variables
+│   ├── db/             # Database connection and migrations
+│   ├── models/         # Data structures for users, boards, etc.
+│   ├── handlers/       # HTTP handlers for API endpoints
+│   ├── routes/         # API route definitions
+│   ├── middleware/     # Authentication and other middleware
+│   └── utils/          # Utility functions
+├── pkg/                # Shared packages that could be reused
+│   └── auth/           # Authentication logic (JWT)
+└── go.mod              # Go module file
